@@ -1,3 +1,4 @@
+# 第一部分
 # 第一步 #
 初始化  
 git init  
@@ -21,4 +22,14 @@ git log
 需要配置个人信息，邮箱  
  git config --global user.name  
  git config --global user.email  
+
+
+# 第二部分
+# 回滚
+回滚到以前版本
+git reset --hard 版本号
+
+# 查看所有版本（包括已回滚的版本）
+git reflog 
+
 
